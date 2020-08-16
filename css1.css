@@ -1,0 +1,530 @@
+body{
+	padding: 0px;
+	background-color:#fff!important;
+}
+img { max-width: 100%; height: auto; }
+#nav-bar{
+	background-color: #333333;
+	color:#fff;
+	display:inline-flex;
+	width:100%;
+	height:80px;
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+.navbar-toggler{
+	margin-top:10px;
+	background-color: #fff!important;
+	color:white;
+	border:none!important;
+}
+.navbar-brand img{
+	height:60px;
+	width:100px;
+	padding-left:30px;
+	color:rgba(0,0,0,0.7);
+
+}
+#nav-bar p{
+	padding-right:300px;
+}
+#nav-bar li a{
+	color:#fff;
+	padding:30px;
+   
+}
+#nav-bar li a:hover{
+	background-color:#000;
+	color:#fff;
+	max-height:80px;
+}
+#search{
+	width:70px;
+	font-size:12px;
+}
+#search1{
+	color:white!important;
+	border-color:#fff;
+	text-align: center
+	float:right;
+}
+#search1:hover{
+	color:#fff!important;
+	background-color:#555!important;
+}
+#background{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://c1.wallpaperflare.com/preview/832/727/804/mountain-peak-night-dusk-thumbnail.jpg");
+	background-size: cover;
+	background-position:center;
+	color:#fff;
+	height:450px;
+}
+#background .bgtext{
+	padding-top:80px;
+	text-align: center;
+}
+
+#background .bgtext h1:before{
+	 content:" ";
+    background:#555;
+    display:block;
+    height:1px;
+    width:300px;
+    margin:20px auto 5px;
+}
+#background .bgtext h1:after{
+	 content:" ";
+    background:#555;
+    display:block;
+    height:1px;
+    width:300px;
+    margin:20px auto 5px;
+}
+#background .bgtext p{
+	color:#555;
+	font-size: 20px;
+	font-weight:500;
+}
+#background .bgtext b{
+	color:#fff;
+}
+
+.content{
+	background-color: white;
+	width:80%;
+	margin:auto;
+	border-top: 10px solid orange;
+	padding-top: 50px;
+}
+.content:hover{
+
+	color:#fff;
+	box-shadow: 0 2px 20px #555;
+	transition:.5s ease;
+}
+.line:before{
+	content:" ";
+    background:#555;
+    opacity:0.7;
+    display:block;
+    height:7px;
+    width:90%;
+    margin:auto;
+}
+/*----------------services-------*/
+.C1{
+	color:#555;
+	padding-left:30px;
+	padding-top:30px;
+	font-weight:500;
+}
+ button{
+	background-color: #000;
+	color:#fff;
+	margin-bottom:20px;
+}
+.C1 b,.C2{
+	color:#000;
+	padding-left: 10px;
+}
+.C2 p{
+	color:#555;
+}
+.C1 i, .C2 i{
+	font-size:40px;
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius: 50%;
+	background-color:#ff6600!important;
+}
+
+.first:hover i{
+	background-color:#333333!important;
+	border:none;
+}
+.first:hover{
+	background-color:#FDA505;
+	width:0px;
+	margin-top: 10px;
+	transition:.5s ease;
+}
+.second{
+	color:#000;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+.second:hover{
+	background:#FDA505;
+	transition: .5s ease;
+}
+.C3{
+	padding-top: 20px;
+	margin-left: 20px;
+   color:#000;
+}
+.C4 img{
+	height:150px;
+	width:200px;
+	padding-top: 20px;
+}
+.content1{
+	position:absolute;
+	height:auto;
+	width:auto;
+	padding-top: 20px;
+	padding-left:30px;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:20px;
+	text-align: center;
+}
+.content1 i{
+	padding-top:25px;
+	padding:10px;
+	margin:auto;
+}
+.content i:hover{
+	background-color:#f95700ff;
+	border-radius: 50%;
+}
+.overlay{
+	position: absolute;
+	margin-left:40px;
+	margin-top:50px;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	height:130px;
+	width:200px;
+	opacity:0;
+	transition:.5s ease;
+	background:#000;
+}
+.second .C4:hover .overlay{
+	opacity:0.85;
+}
+.scroll{
+	padding-top:25px;
+	float:right;
+	margin-right:80px;
+}
+.scroll button:hover{
+	background-color:#f95700ff;
+}
+.textblog ul{
+	display:inline-flex;
+	list-style: none;
+	font-size:20px;
+}
+.textblog ul li{
+	float:left;
+	margin-left:-20px;
+	padding-right:50px;
+}
+.textblog p{
+	padding-left:20px;
+}
+.textblog button{
+	margin-left:20px;
+}
+.third{
+	color:#000;
+}
+.third1{
+	display:flex;
+	align-items: center;
+	padding-top:20px;
+	margin-bottom: 10px;
+	background:#dedede;
+	border:10px;
+}
+.blog1{
+	flex-basis:25%
+}
+.blogimg{
+	height:100px;
+	width:100px;
+	padding-left:30px;
+	padding-top:10px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+
+}
+.button1{
+	background:#555;
+	color:#fff;
+	border-radius:10px;
+	margin-bottom:15px;
+}
+.fourth{
+	display: flex;
+	color:#000;
+}
+blockquote{
+	font-size:16px;
+	line-height: 30px;
+}
+
+blockquote::before{
+    content:'\93';
+    font-size:50px;
+    color:#007bff;
+    position:relative;
+    line-height: 20px;
+    bottom:-15px;
+    right:5px;
+}
+blockquote::after{
+    content:'\94';
+    font-size:50px;
+    color:#007bff;
+    position:relative;
+    line-height:10px;
+    bottom:-15px;
+    left:5px;
+}
+.testi1{
+	text-align: center;
+	padding:10px;
+	margin-bottom:30px;
+	margin-top:20px;
+
+}
+.testi1:hover{
+	background:#555;
+	color:#fff;
+	box-shadow: 0 2px 20px #333;
+	transition:.5s ease;
+}
+.testi1:hover .comment{
+	color:#000;
+}
+.user{
+	width:90px;
+	height:90px;
+	border-radius:50%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-bottom: 10px
+}
+.comment{
+	display:flex;
+	background-color:#d3d3d3;
+}
+.commenttext{
+	padding-top: 20px;
+}
+
+.footer{
+	color:#000;
+	background-color:#333333;
+	height:80vh;
+	width:97%;
+	margin:auto;
+	border-top:10px solid orange;
+	margin-top:100px!important;
+}
+.firsthalf{
+	margin-top:30px;
+	padding-left:10px;
+	color:#fff;	
+}
+.firsthalf h4{
+	color:#fff;
+	size:30px;
+	font-weight:500;
+	margin-bottom:30px
+}
+#contactme{
+	padding-left:4	0px;
+}
+.flicker{
+	height:70px;
+	width:70px;
+	padding:3px;
+}
+.footer .firsthalf .row .col-md-3 ul li{
+	display:inline-flex;
+	list-style: none;
+	font-size:20px;
+	color:#000!important;
+	padding:10px;
+	height:40px;
+	width:40px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	background:#fff!important;
+}
+.footer .firsthalf .row .col-md-3 ul li:hover{
+	background:orange!important;
+	size:20px;
+	border:none;
+}
+.firsthalf:after{
+	content:" ";
+    background:#555;
+    opacity:0.7;
+    display:block;
+    height:7px;
+    width:90%;
+	margin:auto;
+}
+.sh1{
+	display:inline-flex;
+	color:#fff!important;
+	float:left;
+	font-size:20px;
+	font-weight:300;
+	padding-left:15px;
+	margin-top:15px;
+}
+.sh2{
+	color:#fff;
+	float:right;
+	font-size:20px;
+	font-weight:300;
+	padding-right:15px;
+	margin-top:20px;
+}
+.thirdhalf{
+	margin-top:100px;
+	background:#000;
+	color:#fff;
+	padding:12px;
+
+}
+.fa-heart-o{
+	margin:3px;
+	color:red; 
+}
+html { font-size:100%; }
+@media (min-width: 320px) and (max-width:767px){ 
+	body {font-size:10px;}
+	#nav-bar{
+		width:100%;
+		height:70px;
+		font-size:15px;
+		color:#fff!important;
+		margin:auto;
+	 } 
+	#nav-bar img{
+		float:left;
+		padding-top:0px;
+		height:30px;
+		width:70px;
+	}
+	#nav-bar p{
+		float:left;
+		width:auto;
+	}
+	.navbar-toggler{
+		float:right!important;
+	}
+	#navbarSupportedContent{
+		width:auto;
+		margin:auto;
+		background:#555;
+	}
+	#blogs{
+		font-size:15px;
+		width:90%;
+		margin:auto;
+	}
+	.textblog{
+		font-size:15px;
+		width:80%;
+		margin:auto;
+		text-align:center;
+	}
+	.textblog ul li{
+		width:60px;
+		margin:auto;
+		font-size:15px;
+		display: inline-block;
+	}
+	.textblog ul li b{
+		width:50px;
+		margin:auto;
+		font-size:15px!important;
+	}
+	.blogimg{
+		height:100px;
+		width:250px;
+	}
+	.comment{
+		height:100px;
+	}
+	.comment .commentimg{
+		height:10px;
+		width:auto ;
+	}
+	.comment .commenttext{
+		height:30px;
+		font-size:15px;
+	}
+	.footer{
+		height:200vh;
+	}
+	.secondhalf p{
+		font-size:10px;
+	}
+	.fh1, .fh2, .fh3, .fh4{
+		margin-bottom: 20px;
+	}
+	.sh2{
+		float:left;
+		padding-left:30px;
+	}
+	.thirdhalf{
+		margin-top:150px;
+	}
+	.overlay{
+		margin-top:25px;
+		width:200px;
+		margin:auto;
+	}
+@media (min-width: 768px) and (max-width:1023px){ 
+	body {font-size:10px;}
+	#nav-bar{
+		width:100%;
+		height:70px;
+		font-size:15px;
+		color:#fff!important;
+		margin:auto;
+	 } 
+	 .navbar-toggler{
+		float:right!important;
+	}
+	#navbarSupportedContent{
+		width:auto;
+		margin:auto;
+		background:#555;
+	}
+	.overlay{
+		display:none;
+
+	}
+	 .navbar ul li{
+	 	display: block;
+	 }
+	 .textblog ul li b{
+		width:50px;
+		margin:auto;
+		font-size:15px!important;
+	}
+	.contactme{
+	    padding-left:100px;
+	}
+	.sh2{
+		margin-bottom:30px;
+	}
+ 
+}
